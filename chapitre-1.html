@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="fr"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="INTUITIVE">
+    <meta name="description" content="">
+    <title>chapitre 1</title>
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+<link rel="stylesheet" href="chapitre-1.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 6.9.2, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    
+    
+    
+    
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": ""
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="chapitre 1">
+    <meta property="og:type" content="website">
+  <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
+  <body data-path-to-root="./" data-include-products="false" class="u-body u-xl-mode" data-lang="fr"><header class="u-clearfix u-header u-header" id="sec-d74f"><div class="u-clearfix u-sheet u-sheet-1">
+        <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1">
+          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
+            <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+              <svg class="u-svg-link" viewBox="0 0 24 24"><use xlink:href="#menu-hamburger"></use></svg>
+              <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</g></svg>
+            </a>
+          </div>
+          <div class="u-custom-menu u-nav-container">
+            <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Accueil.html" style="padding: 10px 20px;">Accueil</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="chapitre-1.html" style="padding: 10px 20px;">chapitre 1</a>
+</li></ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-inner-container-layout u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Accueil.html">Accueil</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="chapitre-1.html">chapitre 1</a>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+      </div></header>
+    <section class="u-clearfix u-section-1" id="sec-d771">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-align-center u-text u-text-default u-text-1">Chapitre 1</h1>
+        <h2 class="u-align-center u-text u-text-default u-text-2">Faire de la visualisation de&nbsp;<br>type 2 sur linux
+        </h2>
+        <p class="u-text u-text-default u-text-3">Pour tout le long de ce guide, j'utiliserai Bodhi Linux, qui est un systeme d'exploitation baser sur Debian, comme systeme d'exploitation.</p>
+        <h3 class="u-align-center u-text u-text-default u-text-4">Les pre-requis :<br>
+        </h3>
+      </div>
+    </section>
+    <section class="u-clearfix u-section-2" id="sec-6e4b">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <p class="u-text u-text-default u-text-1"> Pour être en mesure de virtualiser un système d'exploitation 64 bits, le microprocesseur de votre ordinateur hôte doit être doté d'une technologie appelée&nbsp;virtualisation assistée matériellement&nbsp;(ou&nbsp;accélération matérielle). Cette technologie est identifiée&nbsp;AMD-V&nbsp;chez AMD et&nbsp;Intel VT-x&nbsp;chez Intel. Généralement incluse dans les processeurs récents, la virtualisation matérielle doit toutefois bien souvent être activée dans le&nbsp;BIOS/UEFI de l'ordinateur et paramétrée convenablement dans les paramètres de la machine virtuelle. Tous les processeurs ne sont pas capables de virtualisation matérielle.<br>
+          <br>Pour savoir si votre processeur dispose de cette technologie, effectuer la commande suivante dans un terminal :<br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>Si la commande ne retourne rien, c'est que votre processeur n'a pas d'accelleration materielle. La virtualisation de systeme d'exploitation 64 bits n'est pas disponible sur votre ordinateur. Vous pouvez cependant faire de la virtualisation de systeme d'exploitation 32 bits.<br>
+        </p>
+        <img class="u-image u-image-default u-image-1" src="images/egrep.PNG" alt="" data-image-width="804" data-image-height="147">
+        <div class="u-container-style u-custom-color-2 u-group u-radius u-shape-round u-group-1">
+          <div class="u-container-layout u-valign-middle u-container-layout-1">
+            <p class="u-text u-text-body-color u-text-2"> egrep '^flags.*(vmx|svm)' /proc/cpuinfo</p>
+          </div>
+        </div>
+        <h4 class="u-text u-text-default u-text-3">Commencer :</h4>
+        <p class="u-text u-text-4">Pour commencer, nous allons&nbsp; installer un hyperviseur de type 2. Mais Jamie, c'est quoi un hyperviseur de type 2 ?&nbsp;<br>
+          <br>hyperviseur s'exécute sur un système d'exploitation hôte existant. Il utilise les ressources matérielles de ce système pour créer et exécuter des machines virtuelles. Les systèmes d'exploitation invités fonctionnent à l'intérieur de ce système d'exploitation hôte. Des exemples d'hyperviseurs de type 2 incluent VMware Workstation Player, VirtualBox et KVM.&nbsp;<br>
+        </p>
+        <a href="#" class="u-active-none u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-1-base u-btn u-btn-rectangle u-button-style u-hover-none u-none u-btn-1">VMware Workstation Player </a>
+        <a href="#" class="u-active-none u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-1-base u-btn u-btn-rectangle u-button-style u-hover-none u-none u-btn-2">VirtualBox </a>
+        <a href="#" class="u-active-none u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-1-base u-btn u-btn-rectangle u-button-style u-hover-none u-none u-btn-3">KVM </a>
+      </div>
+    </section>
+    <section class="u-clearfix u-section-3" id="sec-bbe8">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-accordion u-expanded-width u-accordion-1">
+          <div class="u-accordion-item">
+            <a class="active u-accordion-link u-button-style u-accordion-link-1" id="link-ca91" aria-controls="ca91" aria-selected="true">
+              <span class="u-accordion-link-text">Guide : VMware Workstation ​Player</span>
+            </a>
+            <div class="u-accordion-active u-accordion-pane u-container-style u-accordion-pane-1" id="ca91" aria-labelledby="link-ca91">
+              <div class="u-container-layout u-container-layout-1">
+                <p class="u-text u-text-1">
+                  <span style="font-weight: 700; text-decoration: underline !important;">1 : INSTALLATION :<br>1.1 :
+                  </span>
+                  <span style="text-decoration: underline !important; font-weight: 700;">
+                    <br>
+                    <span style="font-weight: 400;">Pour commencer nous allons mettre a jour tous les paquets de Linux en effectuant ces commandes :</span>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>1.2 : <span style="font-weight: 400;"></span>
+                  </span>
+                  <br>
+                </p>
+                <div class="u-container-style u-custom-color-4 u-group u-radius u-shape-round u-group-1">
+                  <div class="u-container-layout u-container-layout-2">
+                    <p class="u-text u-text-body-color u-text-default u-text-2">sudo apt update</p>
+                  </div>
+                </div>
+                <div class="u-container-style u-custom-color-4 u-group u-radius u-shape-round u-group-2">
+                  <div class="u-container-layout u-container-layout-3">
+                    <p class="u-text u-text-body-color u-text-default u-text-3">sudo apt upgrade</p>
+                  </div>
+                </div>
+                <img class="u-image u-image-default u-image-1" src="images/aptupdate.PNG" alt="" data-image-width="802" data-image-height="153">
+                <img class="u-image u-image-default u-image-2" src="images/aptupgrade.PNG" alt="" data-image-width="805" data-image-height="159">
+                <p class="u-text u-text-4">Maintenant&nbsp; nous allons installer VMware Worksation Player ainsi que ces dependences : <br>
+                  <br>&nbsp; &nbsp; - Commencons par installer le paquage&nbsp;<span style="font-style: italic;"> build-essentials&nbsp;<span style="font-style: normal;"> :</span>
+                  </span>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>&nbsp; &nbsp; - Allez sur le site officiel de&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; et installer la version Linux, cela vous telechargera un <span style="font-style: italic;" class="u-text-palette-3-dark-1">.bundle&nbsp; <span class="u-text-black"> .</span>
+                  </span>
+                  <br>&nbsp; &nbsp; - Ouvrez ensuite un terminal et rendez-vous dans le dans le dossier ou le&nbsp;<span class="u-text-palette-3-dark-1">
+                    <span style="font-style: italic;">
+                      <span style="font-style: normal;">
+                        <span style="font-style: italic;"> .bundle&nbsp;<span class="u-text-black">
+                            <span style="font-style: normal;"> a ete telecharger.</span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <span style="font-style: italic;"> &nbsp; &nbsp;&nbsp;<span class="u-text-black">
+                        <span style="font-style: normal;"> - Nous allons maintenant rentre ce fichier executable:</span>
+                      </span>
+                    </span>
+                  </span>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>&nbsp; &nbsp; - Pour finir, executer le fichier avec les droit d'administrateur :<br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>&nbsp; &nbsp; &nbsp; Le script téléchargera et installera ensuite les dépendances nécessaires puis, ouvrira l'installateur graphique de l'application.<br>&nbsp; &nbsp; &nbsp; (Pas d'inquiétude si le terminal vous renvoie une erreur concernant l'installation du module "murrine". Cela n'empêche&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; aucunement l'installation et l'utilisation de Vmware Workstation Player).<br>
+                  <br>&nbsp; &nbsp; - Valider les licences d'utilisation.<br>&nbsp; &nbsp; - Suivre les instructions à l'écran.<br>
+                  <br>
+                  <br>
+                  <span style="font-weight: 700;">
+                    <span style="text-decoration: underline !important;">
+                      <span style="font-size: 1.375rem;">
+                        <span style="font-size: 1.25rem;">2 : Creer sa premiere machine virtuelle :</span>
+                      </span>
+                    </span>
+                  </span>
+                  <br>
+                  <span style="font-weight: 700; font-size: 1.375rem;">
+                    <span style="font-size: 1.25rem;">
+                      <span style="font-weight: 700;"> 2.1 :<span style="font-weight: 400;"></span>
+                      </span>
+                    </span>
+                  </span>
+                  <br>Nous allons maintenant telecharger un systeme d'exploitation sous la forme .ISO, voici quelque liens d'ISO souvent utiliser :<br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <span style="font-size: 1.25rem;">
+                    <span style="font-weight: 700;"> 2.2 :</span>
+                  </span>
+                  <br>Pour ce guide j'utiliserais un ISO de Windows 10.<br><b>
+                    <span style="font-weight: 400;"> &nbsp; &nbsp; -&nbsp;</span></b><b>
+                    <span style="font-weight: 400;">Demarrer maintenant VMware Workstation Player puis <span style="font-weight: 700;"> cliquez sur "Create a new virtual machine"</span>
+                    </span></b>
+                  <br>
+                  <span style="font-size: 1.25rem;"></span>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <span style="font-size: 1.25rem;">
+                    <span style="font-weight: 700;"></span>
+                    <span style="font-weight: 700;"></span>
+                  </span>
+                  <br>
+                  <br>&nbsp; &nbsp; - VMware vous demanderas qu'elle methode d'installations vous souhaitez utilisez, dans notre cas nous voulons utiliser la methode "installer disc image file(ISO)"<br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>&nbsp; &nbsp; - Vous devrez rentrer ensuite toutes les informations necessaires au parametrage de windows<br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>&nbsp; &nbsp; - Nommez ensuite votre machine virtuel et choisissez ou elle sera stocker sur votre ordiinateur<br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>&nbsp; &nbsp; - Choisissez maintenant la taille de stockage que votre machine virtuel aura.&nbsp;<span style="font-weight: 700;"> Cela utilisera du stockage de votre ordinateur hote.</span>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <span style="font-weight: 700;"></span>
+                  <br>
+                  <br>
+                  <br>
+                  <br>&nbsp; &nbsp; - Pour finir, un resume complet de la machine virtuelle apparait, cliquer sur finish pour creer la mavhine virtuelle<br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <span style="font-weight: 700;">
+                    <span style="font-size: 1.375rem;"> Felicitations, vous venez de creer votre premiere machine virtuelle.</span>
+                  </span>
+                  <br>
+                  <br>
+                </p>
+                <div class="u-container-style u-group u-palette-5-base u-radius u-shape-round u-group-3">
+                  <div class="u-container-layout u-valign-middle u-container-layout-4">
+                    <p class="u-text u-text-default u-text-5">cd Chemin/du/dossierDeTelechargement</p>
+                  </div>
+                </div>
+                <a href="https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html" class="u-active-none u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-1-base u-btn u-btn-rectangle u-button-style u-hover-none u-none u-btn-1" target="_blank">VMware​ Workstation Player</a>
+                <div class="u-container-style u-group u-palette-5-base u-radius u-shape-round u-group-4">
+                  <div class="u-container-layout u-container-layout-5">
+                    <p class="u-text u-text-default u-text-6">chmod&nbsp; +x VMware-Player.bundle </p>
+                  </div>
+                </div>
+                <div class="u-container-style u-group u-palette-5-base u-radius u-shape-round u-group-5">
+                  <div class="u-container-layout u-valign-middle u-container-layout-6">
+                    <p class="u-text u-text-default u-text-7">cd Chemin/du/dossierDeTelechargement</p>
+                  </div>
+                </div>
+                <div class="u-container-style u-group u-palette-5-base u-radius u-shape-round u-group-6">
+                  <div class="u-container-layout u-valign-middle u-container-layout-7">
+                    <p class="u-text u-text-default u-text-8">export LC_ALL=C</p>
+                  </div>
+                </div>
+                <div class="custom-expanded u-container-style u-group u-palette-5-base u-radius u-shape-round u-group-7">
+                  <div class="u-container-layout u-valign-middle u-container-layout-8">
+                    <p class="u-text u-text-default u-text-9">sudo ./VMware-Player*.bundle</p>
+                  </div>
+                </div>
+                <a href="#" class="u-active-none u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-1-base u-btn u-btn-rectangle u-button-style u-hover-none u-none u-btn-2">Windows 10 </a>
+                <a href="#" class="u-active-none u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-1-base u-btn u-btn-rectangle u-button-style u-hover-none u-none u-btn-3">Ubuntu </a>
+                <img class="u-image u-image-default u-image-3" src="images/Screenshot_1.png" alt="" data-image-width="1085" data-image-height="880">
+                <img class="u-image u-image-default u-image-4" src="images/Screenshot_3.png" alt="" data-image-width="639" data-image-height="628">
+                <img class="u-image u-image-default u-image-5" src="images/Screenshot_4.png" alt="" data-image-width="637" data-image-height="630">
+                <img class="u-image u-image-default u-image-6" src="images/Screenshot_5.png" alt="" data-image-width="641" data-image-height="627">
+                <img class="u-image u-image-default u-image-7" src="images/Screenshot_6.png" alt="" data-image-width="639" data-image-height="632">
+                <img class="u-image u-image-default u-image-8" src="images/Screenshot_7.png" alt="" data-image-width="630" data-image-height="631">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-section-4" id="sec-b58e">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <a href="Accueil.html" class="u-btn u-button-style u-none u-text-hover-palette-2-base u-text-palette-1-base u-btn-1">page d'acceuil </a>
+        <img class="u-image u-image-contain u-image-default u-preserve-proportions u-image-1" src="images/Screenshot_8.png" alt="" data-image-width="141" data-image-height="116">
+      </div>
+    </section>
+    
+    
+    
+    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-8615"><div class="u-clearfix u-sheet u-sheet-1"></div></footer>
+    <section class="u-backlink u-clearfix u-grey-80">
+      <p class="u-text">
+        <span>This site was created with the </span>
+        <a class="u-link" href="https://nicepage.com/" target="_blank" rel="nofollow">
+          <span>Nicepage</span>
+        </a>
+      </p>
+    </section>
+  
+</body></html>
